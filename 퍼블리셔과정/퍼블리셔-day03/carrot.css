@@ -1,0 +1,38 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: #FFFAE0;
+    flex-direction: column;
+}
+
+.banner{
+
+}
+
+.sub-banner{
+    color: #7C7C7C;
+}
+
+.buttons-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.button{
+    color: white;
+    font-weight: bold;
+    background-color: #FF6F0F;
+    width: 180px;
+    height: 56px;
+    border-radius: 10px;
+}
+
+.center{
+    /* 안의 내용들을 배치화 */
+    display: flex;
+    /* 좌우 기준으로 가운데 */
+    justify-content: center;
+    /* 상하 기준으로 가운데 */
+    align-items: center;
+}

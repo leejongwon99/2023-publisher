@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.button{
+    width: 350px;
+    height: 50px;
+
+    /* color 글씨색 */
+    color: white;
+    
+    /* background-color 배경색 */
+    background-color: #3382E9;
+
+    /* 테두리 깎는 정도 */
+    border-radius: 8px;
+
+    /* 폰트 사이즈 */
+    font-size: 15px;
+
+    /* 폰트 두께 */
+    font-weight: bold;
+
+    /* 폰트 */
+    font-family: 'SpoqaHanSansNeo-Regular';
+
+    /* 자식들을 배치화 할거야 */
+    display: flex;
+
+    /* 좌우기준 가운데 배치 */
+    justify-content: center;
+
+    /* 상하기준 가운데 배치 */
+    align-items: center;
+}
