@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ul{
+    /* 점 없애기 */
+    list-style: none;
+    padding: 0;
+}
+
+.container{
+    /* v = viewport = 님들이 보고계시는 브라우저 기기 */
+    /* 100퍼센트 넓이의 화면을 차지 */
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2EBE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-find-box{
+    width: 1400px;
+    height: 600px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-find-description{
+    text-align: center;
+    font-family: 'JalnanGothic';
+}
+
+.store-find-description > h5{
+    font-size: 48px;
+    margin: 0;
+}
+
+.store-find-description > p{
+    font-size: 24px;
+}
+
+.find-button{
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    font-family: 'JalnanGothic';
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    line-height: 1;
+}
+
+.store-find-icon-list{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.store-find-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'JalnanGothic';
+    padding-right: 30px;
+    border-right: 1px solid gray;
+}
+
+.store-find-icon > i{
+    font-size: 100px;
+}
+
+.icon-sub-desc{
+    text-align: center;
+    font-size: 18px;
+}
+
+.icon-main-desc{
+    font-size: 18px;
+    color: red;
+}
